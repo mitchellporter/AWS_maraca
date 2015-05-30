@@ -12,6 +12,7 @@ exports.handler = function(event, context) {
     console.log("Request received:\n", JSON.stringify(event));
     console.log("Context received:\n", JSON.stringify(context));
 
+    // change the following to the name of the DynamoDB table you created
     var tableName = "EdisonMaracas-DeviceDataTable-6S2INYN5CN1E";
     var datetime = new Date().getTime().toString();
 
