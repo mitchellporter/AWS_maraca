@@ -13,6 +13,6 @@ however there was easy way to see the packet when sent to SNS.
 I wrote a simple Lambda function to write to DynamoDB whenever a SNS message came in.
 
 References:
-- assembling the Intel Edison maraca: http://slides.com/rexstjohn/deck-6-8-7-8#/17
+- assembling the Intel Edison maraca: http://slides.com/rexstjohn/deck-6-8-7-8
 - sending maraca data to AWS: http://bit.ly/aws-iot-hackseries
 
